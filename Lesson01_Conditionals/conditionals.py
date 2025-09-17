@@ -20,16 +20,22 @@ else:
 # ========================================
 # SECTION 2: AGE CATEGORY CLASSIFIER
 # ========================================
-age = int(input("Age: "))
+age_input = input("Enter your age: ")
 
-if 0 <= age <= 12:
-    print("You are a child")
-elif 13 <= age <= 19:
-    print("You are a teenager")
-elif 20 <= age <= 64:
-    print("You are an adult")
-elif age >= 65: 
-    print("You are a senior")
+# Instant INT
+# age = int(input("Age: "))
+if age_input:
+    age = int(age_input)
+    if 0 <= age <= 12:
+        print("You are a child")
+    elif 13 <= age <= 19:
+        print("You are a teenager")
+    elif 20 <= age <= 64:
+        print("You are an adult")
+    elif age >= 65: 
+        print("You are a senior")
+    else:
+        print("Please enter a valid age.") 
 else:
     print("Please enter a valid age.") 
 # ========================================
