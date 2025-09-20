@@ -17,4 +17,12 @@ if user_age:
             print("Output: Approved: You can watch this movie.")
         else:
             print("Output: WARNING: Not recommended for your age.")
-    elif: movie_rating = "movie_rating"
+    elif movie_rating == "PG":
+        if age >= 6:
+            print("Output: Approved: You can watch this movie.")
+        else:
+            print("Output: Disaprroved: Must be 6+ for PG-rated movies")
+    elif movie_rating == "G":
+            print("Output: Approved: You can watch this movie.")
+else:
+    print("Outout: ERROR: Please enter your age.")
