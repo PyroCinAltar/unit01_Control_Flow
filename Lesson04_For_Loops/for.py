@@ -29,7 +29,7 @@ print()
 import time
 for sec in range(10, -1, -1):
     print(f"Seconds: {sec}")
-    time.sleep(1)
+    time.sleep(1) 
 print("Blast Off!")
 
 # Multiplication table
