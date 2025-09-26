@@ -17,7 +17,7 @@ if height and weight:
     print("===================================")
     print(f'Height: {height_int}"')
     print(f"Weight: {weight_int} .lbs")
-    print(f"BMI: {bmi:1f}")
+    print(f"BMI: {bmi:1f }")
     print(f"Category: {categorize}")
     print(f"Recommendation: {recom}")
     print(f"Health Risk: {risk}")
